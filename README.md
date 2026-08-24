@@ -5,6 +5,6 @@ Master SQL fundamentals — joins, aggregates, subqueries — with a target of 5
 
 ## Progress Log
 - Day 1: Practiced basic  DQL & DML commands
-
+- Day 2: Practiced Limit,OrderBy,WHERE(And, Or, Between)-combining 8 practice question with real FP&A data.
 ## Tech
 MySQL Workbench
