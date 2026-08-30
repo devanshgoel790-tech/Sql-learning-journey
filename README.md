@@ -10,6 +10,7 @@ Master SQL fundamentals — joins, aggregates, subqueries — with a target of 5
 - Day 4: Today I learn Group BY clause.
 - Day 5: HAVING Clause - filtering aggregated GROUP BY results for FP&A analysis.
 - Day 6: update (existing rows)- It is very helpful for the FP&A role because update for the Revenue and many more things.
-- Day 7: Mastered INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN — matching tables for financial analysis
+- Day 7: Mastered INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN — matching tables for financial analysis.
+- Day 8: I advanced from basic data retrieval to writing Subqueries (also known as Nested queries).
 ## Tech
 MySQL Workbench
