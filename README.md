@@ -12,5 +12,6 @@ Master SQL fundamentals — joins, aggregates, subqueries — with a target of 5
 - Day 6: update (existing rows)- It is very helpful for the FP&A role because update for the Revenue and many more things.
 - Day 7: Mastered INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN — matching tables for financial analysis.
 - Day 8: I advanced from basic data retrieval to writing Subqueries (also known as Nested queries).
+- Day 9: Today I learnt "UNION & UNION ALL" It is used to combine the result-set of two or more select statement in the DBMS.
 ## Tech
 MySQL Workbench
