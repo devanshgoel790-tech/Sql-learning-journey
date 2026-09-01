@@ -1,0 +1,50 @@
+CREATE DATABASE if not exists school;
+USE SCHOOL;
+ 
+ CREATE TABLE STUDENT(
+ Id int primary key,
+ Firstname VARCHAR(50),
+ Lastname VARCHAR (50),
+Grade VARCHAR(5),
+Marks int Not null
+ );
+ 
+ ALTER TABLE STUDENT
+ ADD AGE INT AFTER GRADE;
+ 
+ 
+ INSERT INTO STUDENT VALUES
+ (1," Alice", "Smith", "A", 14, 85),
+ (2,"Bob", "Jones", "B", 15, 78),
+ (3, "Charlie", "Brown", "A", 14, 92),
+ (4, "David", "Green", "c", 15, 65),
+ (5, "Eva","White","B",16, 88);
+ 
+ 
+ SELECT * FROM STUDENT;
+ 
+ 
+ SELECT FIRSTNAME, LASTNAME FROM STUDENT 
+ WHERE AGE = 14;
+ 
+ SELECT FIRSTNAME, LASTNAME, MARKS FROM STUDENT
+ WHERE MARKS > 80
+ ORDER BY Marks DESC;
+ 
+ select * from student
+ where AGE BETWEEN 14 AND 15
+ AND GRADE = "A";
+ 
+ 
+ SELECT COUNT(*),AVG(MARKS) FROM STUDENT 
+ WHERE MARKS > 80;
+ 
+ SELECT GRADE, AVG(MARKS) FROM STUDENT
+ GROUP BY GRADE;
+ 
+SELECT GRADE, AVG(MARKS) AS AVERAGE_MARKS
+FROM STUDENT 
+GROUP BY GRADE
+HAVING AVG(MARKS) > 80;
+
+ 
