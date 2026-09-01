@@ -13,5 +13,6 @@ Master SQL fundamentals — joins, aggregates, subqueries — with a target of 5
 - Day 7: Mastered INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN — matching tables for financial analysis.
 - Day 8: I advanced from basic data retrieval to writing Subqueries (also known as Nested queries).
 - Day 9: Today I learnt "UNION & UNION ALL" It is used to combine the result-set of two or more select statement in the DBMS.
+- Day 10: Today I only practiced of all function. 
 ## Tech
 MySQL Workbench
