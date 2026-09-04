@@ -15,7 +15,8 @@ Master SQL fundamentals — joins, aggregates, subqueries — with a target of 5
 - Day 9: Today I learnt "UNION & UNION ALL" It is used to combine the result-set of two or more select statement in the DBMS.
 - Day 10: Today I only practiced of all function.
 - Day 11: Practice queries - (select, where, Groupby, Having) clause.
--  Day 12: Practice queries - (select, where, Groupby, Having, OrderBy) clause
+-  Day 12: Practice queries - (select, where, Groupby, Having, OrderBy) clause.
+-  Day 13: Practice queries - with real data (AGGREGATE FUNCTION).
 - 
 ## Tech
 MySQL Workbench
