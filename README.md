@@ -16,7 +16,8 @@ Master SQL fundamentals — joins, aggregates, subqueries — with a target of 5
 - Day 10: Today I only practiced of all function.
 - Day 11: Practice queries - (select, where, Groupby, Having) clause.
 -  Day 12: Practice queries - (select, where, Groupby, Having, OrderBy) clause.
--  Day 13: Practice queries - with real data (AGGREGATE FUNCTION).
+-  Day 13: Practice queries - with real data (AGGREGATE FUNCTION).\
+-  Day 14: Practice queries with real FP&A data.
 - 
 ## Tech
 MySQL Workbench
