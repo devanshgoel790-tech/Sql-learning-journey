@@ -19,5 +19,6 @@ Master SQL fundamentals — joins, aggregates, subqueries — with a target of 5
 -  Day 13: Practice queries - with real data (AGGREGATE FUNCTION).\
 -  Day 14: Practice queries with real FP&A data.
 -  Day 15: Practice queries with real FP&A data.
+-  Day 16: Practice Sub Queries.
 ## Tech
 MySQL Workbench
