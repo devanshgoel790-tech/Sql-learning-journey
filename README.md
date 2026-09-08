@@ -20,5 +20,6 @@ Master SQL fundamentals — joins, aggregates, subqueries — with a target of 5
 -  Day 14: Practice queries with real FP&A data.
 -  Day 15: Practice queries with real FP&A data.
 -  Day 16: Practice Sub Queries.
+-  Day 17: Learned Foreign and CASCADE(Update, Delete) key. it is helpful for link the tables in the DBMS.
 ## Tech
 MySQL Workbench
