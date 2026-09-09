@@ -47,6 +47,7 @@ I am learning SQL to develop the ability to:
 | Day 15 | SQL Practice with FP&A Data | Building analytical problem-solving skills |
 | Day 16 | Subqueries | Advanced filtering and comparative analysis |
 | Day 17 | Foreign Keys & CASCADE | Understanding table relationships and data integrity |
+| Day 18 | SQL Practice with Data | Deep understanding of the standard logical processing order (From to Limit).
 
 
  💼 SQL Skills Developed
