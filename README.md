@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 18 / 90  
+Current Progress: Day 19 / 90  
 Database: MySQL  
 Tool:** MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -47,8 +47,8 @@ I am learning SQL to develop the ability to:
 | Day 15 | SQL Practice with FP&A Data | Building analytical problem-solving skills |
 | Day 16 | Subqueries | Advanced filtering and comparative analysis |
 | Day 17 | Foreign Keys & CASCADE | Understanding table relationships and data integrity |
-| Day 18 | SQL Practice with Data | Deep understanding of the standard logical processing order (From to Limit).
-
+| Day 18 | SQL Practice with Data | Deep understanding of the standard logical processing order (From to Limit). |
+| Day 19 | SQL Practice Queries | 10 SQL speed practice queries - SELECT, WHERE GROUP BY, HAVING, ORDER BY, LIMIT mastery |
 
  💼 SQL Skills Developed
  
