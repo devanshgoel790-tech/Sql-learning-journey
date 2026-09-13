@@ -1,0 +1,69 @@
+CREATE DATABASE employee_practice;
+USE employee_practice;
+
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    employee_name VARCHAR(50),
+    department VARCHAR(50),
+    job_role VARCHAR(50),
+    city VARCHAR(30),
+    salary DECIMAL(10,2),
+    years_experience INT,
+    performance_score DECIMAL(4,2),
+    projects_completed INT
+);
+
+INSERT INTO employees
+(employee_id, employee_name, department, job_role, city, salary, years_experience, performance_score, projects_completed)
+VALUES
+(1, 'Aarav', 'Finance', 'Financial Analyst', 'Delhi', 65000, 2, 8.2, 6),
+(2, 'Priya', 'HR', 'HR Executive', 'Mumbai', 52000, 3, 7.8, 5),
+(3, 'Rahul', 'IT', 'Software Developer', 'Bangalore', 85000, 4, 9.1, 9),
+(4, 'Neha', 'Finance', 'Accountant', 'Delhi', 58000, 3, 8.5, 7),
+(5, 'Arjun', 'Marketing', 'Marketing Analyst', 'Pune', 62000, 2, 7.5, 5),
+(6, 'Ananya', 'IT', 'Data Analyst', 'Bangalore', 78000, 3, 8.8, 8),
+(7, 'Karan', 'Finance', 'FP&A Analyst', 'Mumbai', 72000, 4, 9.0, 8),
+(8, 'Sneha', 'HR', 'Recruiter', 'Delhi', 48000, 2, 7.2, 4),
+(9, 'Vikram', 'IT', 'Software Developer', 'Hyderabad', 92000, 5, 9.3, 11),
+(10, 'Isha', 'Marketing', 'Digital Marketer', 'Pune', 55000, 3, 8.0, 6),
+(11, 'Rohan', 'Finance', 'Financial Analyst', 'Delhi', 68000, 3, 8.7, 7),
+(12, 'Meera', 'IT', 'Data Engineer', 'Bangalore', 95000, 5, 9.4, 12),
+(13, 'Aditya', 'HR', 'HR Manager', 'Mumbai', 78000, 6, 8.9, 10),
+(14, 'Simran', 'Marketing', 'Marketing Manager', 'Delhi', 82000, 7, 9.1, 9),
+(15, 'Yash', 'Finance', 'Accountant', 'Pune', 56000, 2, 7.9, 5),
+(16, 'Nisha', 'IT', 'Data Analyst', 'Hyderabad', 74000, 3, 8.6, 8),
+(17, 'Kabir', 'Finance', 'FP&A Analyst', 'Mumbai', 76000, 5, 9.2, 10),
+(18, 'Riya', 'HR', 'Recruiter', 'Pune', 51000, 2, 7.6, 5),
+(19, 'Dev', 'Marketing', 'Digital Marketer', 'Bangalore', 59000, 3, 8.3, 7),
+(20, 'Tanya', 'IT', 'Software Developer', 'Delhi', 88000, 4, 9.0, 10);
+
+select * from employees;
+
+select employee_name, department, salary from employees;
+
+select  employee_name, department from employees
+where department = "Finance";
+
+select employee_name, salary from employees
+where salary > 70000;
+
+select department, avg(salary) as avg_salary from employees
+group by department;
+
+select department, sum(salary) as total_salary from employees
+group by department;
+
+select department,count(employee_name) as number_of_employees from employees
+group by department;
+
+select department, count(employee_name)as number_of_employees from employees
+group by department
+having count(employee_name) > 4;
+
+select department, avg(performance_score) as avg_performence_score from employees
+group by department
+having avg(performance_score) > 8.5;
+
+select salary, employee_name as highest_paid  from employees
+order by salary desc
+limit 3;
