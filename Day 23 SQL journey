@@ -1,0 +1,80 @@
+create databases if not exists xcompany;
+use xcompany;
+
+CREATE TABLE EmployeeLog (
+    EmpID INT PRIMARY KEY,
+    FullName VARCHAR(100),
+    Role VARCHAR(50),
+    Salary INT,
+    JoinDate DATE,
+    OfficeCity VARCHAR(50)
+);
+
+Insert into EmployeeLog values
+(1, 'Alice Vance', 'Developer', 98000, '2021-04-12', 'Austin'),
+(2, 'Bob Miller', 'Developer', 115000, '2020-02-19', 'Austin'),
+(3, 'Charlie Yang', 'HR Specialist', 62000, '2022-07-01', 'Boston'),
+(4, 'Diana Prince', 'Manager', 130000, '2018-11-05', 'New York'),
+(5, 'Evan Wright', 'Data Analyst', 82000, '2023-01-10', 'Boston'),
+(6, 'Fiona Gallagher', 'Data Analyst', 79000, '2022-09-15', 'New York'),
+(7, 'George Clark', 'Developer', 91000, '2021-08-24', 'Austin'),
+(8, 'Hannah Abbott', 'HR Specialist', 65000, '2023-05-12', 'New York');
+
+
+
+
+Q1: Find all details of employees whose role is 'Developer'.
+
+SELECT * FROM EmployeeLog 
+WHERE Role = 'Developer';
+
+
+Q2: Calculate the average salary of all employees in the company.
+
+SELECT AVG(Salary) AS AvgSalary FROM EmployeeLog;
+
+
+Q3: Count how many employees are based in the 'Boston' office city.
+
+SELECT COUNT(*) FROM EmployeeLog 
+WHERE OfficeCity = 'Boston';
+
+
+Q4: List all unique roles available in the company.
+
+SELECT DISTINCT Role FROM EmployeeLog;
+
+
+Q5: Order all employees by their salary from highest to lowest.
+
+SELECT * FROM EmployeeLog 
+ORDER BY Salary DESC;
+
+
+Q6: Find the maximum and minimum salary offered in the company.
+
+SELECT MAX(Salary) AS MaxSalary, MIN(Salary) AS MinSalary FROM EmployeeLog;
+
+
+Q7: Find employees who joined the company between '2021-01-01' and '2022-12-31'.
+
+SELECT * FROM EmployeeLog 
+WHERE JoinDate BETWEEN '2021-01-01' AND '2022-12-31';
+
+
+Q8: Find the total salary payout grouped by each OfficeCity.
+
+SELECT OfficeCity, SUM(Salary) AS TotalSalary FROM EmployeeLog 
+GROUP BY OfficeCity;
+
+
+Q9: Filter employees whose FullName starts with the character 'A'.
+
+SELECT * FROM EmployeeLog
+WHERE FullName LIKE 'A%';
+
+
+Q10: Show cities that have more than 2 employees working in them.
+
+SELECT OfficeCity FROM EmployeeLog
+GROUP BY OfficeCity HAVING COUNT(*) > 2;
