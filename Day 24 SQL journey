@@ -1,0 +1,81 @@
+create databases if not exists employee_dept;
+use employee_dept;
+
+CREATE TABLE TeamMembers (
+    MemberID INT PRIMARY KEY,
+    FullName VARCHAR(100),
+    Department VARCHAR(50),
+    MonthlySalary INT,
+    PerformanceRating DECIMAL(2, 1),
+    RemoteStatus VARCHAR(10)
+);
+
+INSERT INTO TeamMembers VALUES 
+(1, 'Liam Carter', 'Cloud Engineering', 8500, 4.8, 'Yes'),
+(2, 'Sophia Martinez', 'Cybersecurity', 9200, 4.5, 'No'),
+(3, 'Oliver Tech', 'Data Platform', 7800, 3.9, 'Yes'),
+(4, 'Emma Watson', 'Finance Technology', 6900, 4.2, 'No'),
+(5, 'Ava Fletcher', 'Cloud Engineering', 8900, 4.9, 'Yes'),
+(6, 'Noah Brooks', 'Cybersecurity', 7100, 3.5, 'Yes'),
+(7, 'Isabella Gray', 'Finance Technology', 8100, 4.7, 'No'),
+(8, 'Lucas Thorne', 'Data Platform', 6400, 4.1, 'No');
+
+
+
+Q1: Find all details of team members who belong to either the 'Cybersecurity' or 'Cloud Engineering' departments.
+
+SELECT * FROM TeamMembers
+WHERE Department IN ('Cybersecurity', 'Cloud Engineering');
+
+
+Q2: Find the top-performing employee with the highest performance rating.
+
+SELECT * FROM TeamMembers 
+ORDER BY PerformanceRating DESC LIMIT 1;
+
+
+Q3: Count how many team members are allowed to work fully remote.
+
+SELECT COUNT(*) FROM TeamMembers 
+WHERE RemoteStatus = 'Yes';
+
+
+Q4: Find the average performance rating across all departments.
+
+SELECT AVG(PerformanceRating) AS AverageCompanyRating FROM TeamMembers;
+
+
+Q5: List all unique departments available in the organization.
+
+SELECT DISTINCT Department FROM TeamMembers;
+
+
+Q6: Calculate the highest monthly salary in the 'Finance Technology' department.
+
+SELECT MAX(MonthlySalary) AS MaxFinanceSalary FROM TeamMembers 
+WHERE Department = 'Finance Technology';
+
+
+Q7: Find team members whose PerformanceRating is greater than 4.5 and who work remotely.
+
+SELECT * FROM TeamMembers 
+WHERE PerformanceRating > 4.5 AND RemoteStatus = 'Yes';
+
+
+Q8: Find the total monthly payroll for each department.**
+
+SELECT Department, SUM(MonthlySalary) AS TotalPayroll FROM TeamMembers 
+GROUP BY Department;
+
+
+Q9: Find all team members whose FullName contains the phrase 'th' anywhere in it.
+
+SELECT * FROM TeamMembers
+WHERE FullName LIKE '%th%';
+
+
+Q10: Show the departments where the average monthly salary is greater than 7,500.
+
+SELECT Department, AVG(MonthlySalary) AS AvgSalary FROM TeamMembers 
+GROUP BY Department 
+HAVING AVG(MonthlySalary) > 7500;
