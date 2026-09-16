@@ -1,0 +1,80 @@
+create databases if not exists Teams;
+use Teams;
+
+CREATE TABLE ProjectTeams (
+    StaffID INT PRIMARY KEY,
+    EmployeeName VARCHAR(100),
+    Department VARCHAR(50),
+    AnnualBonus INT,
+    YearsOfExperience INT,
+    ProjectStatus VARCHAR(20)
+);
+
+Insert into ProjectTeams values
+(201, 'Marcus Aurelius', 'Artificial Intelligence', 12000, 6, 'Active'),
+(202, 'Serena Williams', 'Healthcare IT', 9500, 4, 'Active'),
+(203, 'Linus Torvalds', 'Supply Chain', 8000, 8, 'On Hold'),
+(204, 'Ada Lovelace', 'Artificial Intelligence', 15000, 7, 'Active'),
+(205, 'Elon Tusk', 'Supply Chain', 6500, 2, 'Completed'),
+(206, 'Oprah Winfrey', 'Customer Success', 11000, 5, 'Active'),
+(207, 'Tim Cook', 'Healthcare IT', 10500, 9, 'Completed'),
+(208, 'Grace Hopper', 'Customer Success', 7200, 3, 'On Hold');
+
+
+Q1: Find all details of staff members whose project status is currently 'Active'.
+
+SELECT * FROM ProjectTeams
+WHERE ProjectStatus = 'Active';
+
+
+Q2: Find the maximum years of experience among employees in the 'Supply Chain' department.
+
+SELECT MAX(YearsOfExperience) AS MaxExperience FROM ProjectTeams 
+WHERE Department = 'Supply Chain';
+
+
+Q3: List the names and departments of employees who have more than 5 years of experience.
+
+SELECT EmployeeName, Department FROM ProjectTeams 
+WHERE YearsOfExperience > 5;
+
+
+Q4: Calculate the total annual bonus payout across the entire company.
+
+SELECT SUM(AnnualBonus) AS TotalCompanyBonus FROM ProjectTeams;
+
+
+Q5: Display all unique project statuses present in the table.
+
+SELECT DISTINCT ProjectStatus FROM ProjectTeams;
+
+
+Q6: Find the average annual bonus for employees in the 'Artificial Intelligence' department.
+
+SELECT AVG(AnnualBonus) AS AvgAIBonus FROM ProjectTeams 
+WHERE Department = 'Artificial Intelligence';
+
+
+Q7: Find employees who have a status of 'On Hold' and earn an annual bonus of less than 8,500.
+
+SELECT * FROM ProjectTeams
+WHERE ProjectStatus = 'On Hold' AND AnnualBonus < 8500;
+
+
+Q8: Find the number of employees assigned to each department.
+
+SELECT Department, COUNT(*) AS EmployeeCount FROM ProjectTeams 
+GROUP BY Department;
+
+
+Q9: Search for all employees whose name ends with the letter 's'.
+
+SELECT * FROM ProjectTeams
+WHERE EmployeeName LIKE '%s';
+
+
+Q10: Display departments that have a total annual bonus expenditure exceeding 20,000.
+
+SELECT Department, SUM(AnnualBonus) AS TotalBonus FROM ProjectTeams
+GROUP BY Department HAVING SUM(AnnualBonus) > 20000;
+
