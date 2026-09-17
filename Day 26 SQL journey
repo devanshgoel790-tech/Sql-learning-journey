@@ -1,0 +1,136 @@
+
+Create databases if not exists Acompany;
+use Acompany;
+
+CREATE TABLE CorporateMatrix (
+    EmployeeID INT PRIMARY KEY,
+    EmpName VARCHAR(100),
+    Department VARCHAR(50),
+    BaseSalary DECIMAL(10,2),
+    PerformanceScore INT, -- Scale of 1 to 100
+    QuarterlyBonus DECIMAL(10,2),
+    TenureYears INT
+);
+
+INSERT INTO CorporateMatrix VALUES
+(301, 'Alex Mercer', 'R&D Engineering', 125000.00, 92, 18000.00, 6);
+(302, 'Elena Rostova', 'Global Security', 98000.00, 88, 12000.00, 4);
+(303, 'Devon Vance', 'Growth Marketing', 74000.00, 65, 4500.00, 2);
+(304, 'Katarina Blair', 'R&D Engineering', 142000.00, 96, 22000.00, 7);
+(305, 'Marcus Vance', 'E-Commerce Operations', 68000.00, 74, 5000.00, 3);
+(306, 'Sophia Lin', 'Growth Marketing', 89000.00, 81, 9500.00, 5);
+(307, 'Tariq Al-Mansoor', 'Global Security', 112000.00, 90, 15500.00, 5);
+(308, 'Chloe Frazer', 'E-Commerce Operations', 81000.00, 85, 8800.00, 4);
+(309, 'Vikram Singh', 'R&D Engineering', 118000.00, 78, 11000.00, 3);
+(310, 'Nadia Petrova', 'Global Security', 91000.00, 62, 3000.00, 2);
+
+
+Q1: Find the absolute cost-to-benefit ratio for each employee, defined as their Total Compensation (BaseSalary + QuarterlyBonus) divided by their PerformanceScore. Filter out any employee with less than 3 years of tenure, and sort the entire dataset from the most cost-efficient employee (lowest ratio) to least.
+
+SELECT 
+    EmpName, 
+    Department, 
+    (BaseSalary + QuarterlyBonus) / PerformanceScore AS CostToBenefitRatio
+FROM CorporateMatrix
+WHERE TenureYears >= 3
+ORDER BY CostToBenefitRatio ASC;
+
+
+Q2: Calculate the net performance-adjusted financial footprint for departments. For each department, find the total combined compensation (Base + Bonus) multiplied by the department's average performance score divided by 100. Display only departments whose final calculated footprint exceeds 200,000.
+
+SELECT 
+    Department,
+    SUM(BaseSalary + QuarterlyBonus) * (AVG(PerformanceScore) / 100.0) AS PerformanceAdjustedFootprint
+FROM CorporateMatrix
+GROUP BY Department
+HAVING SUM(BaseSalary + QuarterlyBonus) * (AVG(PerformanceScore) / 100.0) > 200000.00;
+
+
+Q3: Calculate a targeted "Bonus Retention Risk Index". Show all departments where the difference between the maximum quarterly bonus paid and the minimum quarterly bonus paid is greater than 10,000, and where the department's overall average tenure is greater than 3 years.
+
+SELECT 
+    Department,
+    (MAX(QuarterlyBonus) - MIN(QuarterlyBonus)) AS BonusSpread,
+    AVG(TenureYears) AS AvgTenure
+FROM CorporateMatrix
+GROUP BY Department
+HAVING (MAX(QuarterlyBonus) - MIN(QuarterlyBonus)) > 10000.00 
+   AND AVG(TenureYears) > 3;
+
+
+Q4: Find the statistical range profile of salaries across departments. For each department, calculate the variance between its maximum salary and minimum salary as a percentage of the department's overall average salary. Label this column `SalaryVolatilityPercentage`.
+
+SELECT 
+    Department,
+    ((MAX(BaseSalary) - MIN(BaseSalary)) / AVG(BaseSalary)) * 100.0 AS SalaryVolatilityPercentage
+FROM CorporateMatrix
+GROUP BY Department;
+
+
+Q5: Isolate highly compensated underperformers. Extract a list of all employees whose combined compensation (Base + Bonus) is strictly greater than the absolute average base salary of the entire organization, yet their individual PerformanceScore is below 80.**
+
+SELECT 
+    EmpName, 
+    Department, 
+    (BaseSalary + QuarterlyBonus) AS TotalComp,
+    PerformanceScore
+FROM CorporateMatrix
+WHERE (BaseSalary + QuarterlyBonus) > (SELECT AVG(BaseSalary) FROM CorporateMatrix)
+  AND PerformanceScore < 80;
+
+Q6: Determine the efficiency tier of departments by analyzing their high-tier production. Display the total number of employees in each department who meet a dual criteria: they have a performance score above 85 AND a bonus payout exceeding 10,000. Only display departments that have at least one such individual, ordered by count descending.
+
+SELECT 
+    Department, 
+    COUNT(*) AS HighPerformerCount
+FROM CorporateMatrix
+WHERE PerformanceScore > 85 
+  AND QuarterlyBonus > 10000.00
+GROUP BY Department
+HAVING COUNT(*) >= 1
+ORDER BY HighPerformerCount DESC;
+
+
+Q7: Calculate the expected annual cost trajectory projection per department. Find the total base salary sum plus four times the quarterly bonus sum (to annualize it) for all employees. However, only include individuals whose names do NOT contain the character sequence 'Van' and whose tenure is at least 2 years.
+
+SELECT 
+    Department,
+    SUM(BaseSalary + (QuarterlyBonus * 4)) AS ProjectedAnnualPayroll
+FROM CorporateMatrix
+WHERE EmpName NOT LIKE '%Van%' 
+  AND TenureYears >= 2
+GROUP BY Department;
+
+
+Q8: Identify departments experiencing financial skewing. Find departments where the maximum single compensation package (Base + Bonus) is more than 1.5 times greater than the overall average base salary of that *specific* department.
+
+SELECT 
+    Department,
+    MAX(BaseSalary + QuarterlyBonus) AS MaxPackage,
+    AVG(BaseSalary) AS DepartmentAvgBase
+FROM CorporateMatrix
+GROUP BY Department
+HAVING MAX(BaseSalary + QuarterlyBonus) > (AVG(BaseSalary) * 1.5);
+
+
+Q9: Track performance value density relative to organizational investment. Find the total performance points generated per dollar spent on base salary by calculating `(SUM(PerformanceScore) / SUM(BaseSalary)) * 10000` for each department. Sort the output so the department offering the highest value per dollar appears first.
+
+SELECT 
+    Department,
+    (SUM(PerformanceScore) / SUM(BaseSalary)) * 10000.0 AS PerformancePointsPerTenThousandDollars
+FROM CorporateMatrix
+GROUP BY Department
+ORDER BY PerformancePointsPerTenThousandDollars DESC;
+
+
+Q10: Execute a multi-layer aggregated health-check filter. Write a query that groups by department and returns the average bonus, but only for departments where the single lowest performance score is higher than 63, the average base salary is greater than 80,000, and the total department headcount is greater than 2.**
+
+SELECT 
+    Department, 
+    AVG(QuarterlyBonus) AS CleanedAvgBonus
+FROM CorporateMatrix
+GROUP BY Department
+HAVING MIN(PerformanceScore) > 63
+   AND AVG(BaseSalary) > 80000.00
+   AND COUNT(*) > 2;
+
