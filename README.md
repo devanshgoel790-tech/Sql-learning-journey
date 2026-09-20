@@ -115,7 +115,7 @@ As I continue this 90-day journey, I will work toward:
 - Advanced SQL concepts
 - Larger business datasets
 - Financial analysis use cases
-- Budget vs. Actual analysis
+- Budget vs Actual analysis
 - Variance analysis
 - Revenue and expense analysis
 - Practical FP&A projects
