@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 28 / 90  
+Current Progress: Day 29 / 90  
 Database: MySQL  
 Tool:** MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -58,6 +58,7 @@ I am learning SQL to develop the ability to:
 | Day 26| SQL Practice Queries| Advance 10 SQL Speed practice queries|
 | Day 27 | Advanced SQL Practice | Solving complex SQL problems using SELECT, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT & aggregate functions |
 | Day 28 | Advanced SQL Queries | 10 complex restaurant dataset queries - Multi-column GROUP BY, Complex HAVING with AND conditions, Revenue calculations |
+| Day 29 | Consulting-Level Analytics | 5 complex customer transaction queries (Premium segment analysis, revenue aggregation, customer lifetime value) - Mastered COUNT vs DISTINCT |
 
 
  💼 SQL Skills Developed
