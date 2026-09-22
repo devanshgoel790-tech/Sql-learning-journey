@@ -69,3 +69,17 @@ group by department
 having avg( performance_score) > 82
   and sum( projects_completed) > 15
   and count(employee_name) >= 2;
+
+  select region ,  
+               avg(salary)as avg_salary ,
+               avg( performance_score)as avg_performance_score,  
+               count(employee_name)as count_employee, 
+			   sum(bonus_amount)as total_bonus_amount ,
+               avg(years_experience)as avg_years_experience
+from employee_performance
+group by region
+having   avg(salary) > 50000 
+    and  avg( performance_score) > 82
+    and count(employee_name) >=2
+order by avg_salary desc;
+
