@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 31 / 90  
+Current Progress: Day 32 / 90  
 Database: MySQL  
 Tool:** MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -61,6 +61,7 @@ I am learning SQL to develop the ability to:
 | Day 29 | Consulting-Level Analytics | 5 complex customer transaction queries (Premium segment analysis, revenue aggregation, customer lifetime value) - Mastered COUNT vs DISTINCT |
 | Day 30 | Sales Performance Analytics | 8 complex queries - Multi-region analysis, salesperson commission calculations, product line profitability, revenue aggregations |
 | Day 31 | 5 Employee Performance Analytics | Department salary analysis, regional bonus calculations, performance filtering, multi-condition HAVING clauses, years experience aggregations |
+| Day 32 | 9 BCG Level Complex Queries | Multi-complex query practice (finding salesperson performance metrics, total revenue thresholds, discount efficiencies, and regional transaction counts) |
 
 
  💼 SQL Skills Developed
