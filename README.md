@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 32 / 90  
+Current Progress: Day 33 / 90  
 Database: MySQL  
 Tool:** MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -62,28 +62,30 @@ I am learning SQL to develop the ability to:
 | Day 30 | Sales Performance Analytics | 8 complex queries - Multi-region analysis, salesperson commission calculations, product line profitability, revenue aggregations |
 | Day 31 | 5 Employee Performance Analytics | Department salary analysis, regional bonus calculations, performance filtering, multi-condition HAVING clauses, years experience aggregations |
 | Day 32 | 9 BCG Level Complex Queries | Multi-complex query practice (finding salesperson performance metrics, total revenue thresholds, discount efficiencies, and regional transaction counts) |
+| Day 33 | Customer Analytics | 5 Complex SQL Queries | Customer lifetime value, acquisition & churn analysis, multiple aggregations, business-level metrics, and CASE WHEN practice |
+
+💻 SQL Server Development
+
+- ✓ SELECT
+- ✓ WHERE
+- ✓ AND / OR
+- ✓ BETWEEN
+- ✓ ORDER BY
+- ✓ LIMIT
+- ✓ DQL
+- ✓ DML
 
 
- 💼 SQL Skills Developed
- 
- SQL Fundamentals
-- SELECT
-- WHERE
-- AND / OR
-- BETWEEN
-- ORDER BY
-- LIMIT
-- DQL
-- DML
+ 📊 Data Analysis
 
- Data Analysis
-- COUNT
-- SUM
-- AVG
-- MIN
-- MAX
-- GROUP BY
-- HAVING
+- ✓ COUNT
+- ✓ SUM
+- ✓ AVG
+- ✓ MIN
+- ✓ MAX
+- ✓ GROUP BY
+- ✓ HAVING
+- ✓ CASE WHEN
 
 ### Relational Database Concepts
 - INNER JOIN
@@ -115,10 +117,10 @@ The objective is not only to learn SQL syntax, but to understand how SQL can sup
 
 As I continue this 90-day journey, I will work toward:
 
-- More complex SQL queries
+- ✓ More complex SQL queries
 - Advanced SQL concepts
 - Larger business datasets
-- Financial analysis use cases
+- ✓Financial analysis use cases
 - Budget vs Actual analysis
 - Variance analysis
 - Revenue and expense analysis
