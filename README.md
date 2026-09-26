@@ -6,9 +6,9 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 34/90  
+Current Progress: Day 35/90  
 Database: MySQL  
-Tool:** MySQL Workbench  
+Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
 
  🎯 Why I Am Learning SQL
@@ -64,6 +64,7 @@ I am learning SQL to develop the ability to:
 | Day 32 | 9 BCG Level Complex Queries | Multi-complex query practice (finding salesperson performance metrics, total revenue thresholds, discount efficiencies, and regional transaction counts) |
 | Day 33 | 5 Complex SQL Queries | Customer lifetime value, acquisition & churn analysis, AND Practice CASE WHEN FUNCTION |
 | Day 34 | CASE WHEN | We use CASE WHEN Function to add conditional logic to your queries and return a specific value |
+| Day 35| CASE WHEN | 5 Complex queries solved using Case When, select, Group By, Having, order by and Multiple operators|  
 
 💻 SQL Server Development
 
