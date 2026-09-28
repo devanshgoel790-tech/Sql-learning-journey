@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 36/90  
+Current Progress: Day 37/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -66,6 +66,7 @@ I am learning SQL to develop the ability to:
 | Day 34 | CASE WHEN | We use CASE WHEN Function to add conditional logic to your queries and return a specific value |
 | Day 35 | CASE WHEN | 5 Complex queries solved using Case When, select, Group By, Having, order by and Multiple operators|  
 | Day 36 | 5 Practice Question | Today I solved 5 complex questions like the Financial Analyst do day to day in the company like BRAIN, BCG |
+| Day 37 | 5 Practice Question| Multi-complex query practice (finding profit_margin_percentage, premium customer count, gross profit |
 
 💻 SQL Server Development
 
