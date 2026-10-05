@@ -73,7 +73,7 @@ I am learning SQL to develop the ability to:
 | Day 41 | 6 Practice question | Today i dove deep into INNER JOINs FUNCTION with multiple tables in the DBMS |
 | Day 42 | 10 Practice question | Today i dove deep into INNER JOINs FUNCTION with using Filtering data (WHERE, ORDER BY,LIMIT) |
 | Day 43 | 6 Practice question | yesterday I practiced only INNER JOIN |
-| Day 44 | 10 Practice & learning question | Today I dove deep into (INNER, LEFT, RIGHT) JOINs and nailed the concept |
+| Day 44 | 10 Practice & learning question | Today I dove deep into (INNER, LEFT, RIGHT) JOINs with using DML Fundamentals and nailed the concept |
 
 💻 SQL Server Development
 
