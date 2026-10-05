@@ -100,8 +100,8 @@ I am learning SQL to develop the ability to:
 
 ### Relational Database Concepts
 - ✓ INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
+- ✓ LEFT JOIN
+- ✓ RIGHT JOIN
 - FULL OUTER JOIN
 - Subqueries
 - UNION
