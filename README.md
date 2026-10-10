@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 47/90  
+Current Progress: Day 49/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -77,6 +77,8 @@ I am learning SQL to develop the ability to:
 | Day 45 | 5 Practice questions | Today I practiced almost 5 questions using case when and join function |
 | Day 46 | 10 Practice questions | Today I practiced 10 questions using only (INNER, LEFT, RIGHT, FULL) JOINs. |
 | Day 47 | 10 Practice  questions | Today I did 10 questions  using Inner join ,count, where, group by, order by, limit. |
+| Day 48 | 10 Practice questions | I went dove deep into the all joins and practicing with financial data.|
+| Day 49 | 6 Practice questions | Today I practiced hardest question using CASE WHEN, ALL JOINs with three tables. |
 
 💻 SQL Server Development
 
