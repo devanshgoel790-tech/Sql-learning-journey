@@ -67,7 +67,7 @@ I am learning SQL to develop the ability to:
 | Day 35 | CASE WHEN | 5 Complex queries solved using Case When, select, Group By, Having, order by and Multiple operators|  
 | Day 36 | 5 Practice Question | Today I solved 5 complex questions like the Financial Analyst do day to day in the company like BRAIN, BCG |
 | Day 37 | 5 Practice Question| Multi-complex query practice (finding profit_margin_percentage, premium customer count, gross profit |
-| Day 34 | BCG Market Expansion Case | 5 extreme-hard queries - CAC payback efficiency, profit margin %, competitive analysis, strategic investment decisions, CASE WHEN for positioning |
+| Day 38 | BCG Market Expansion Case | 5 extreme-hard queries - CAC payback efficiency, profit margin %, competitive analysis, strategic investment decisions, CASE WHEN for positioning |
 | Day 39 | 5 Practice Question | I practiced 5 questions using CASE WHEN FUNCTION |
 | Day 40 | 5 Practice question | I practiced 5 questions using joins Function learnt Round, Dot |
 | Day 41 | 6 Practice question | Today i dove deep into INNER JOINs FUNCTION with multiple tables in the DBMS |
@@ -108,7 +108,6 @@ I am learning SQL to develop the ability to:
 - ✓ INNER JOIN
 - ✓ LEFT JOIN
 - ✓ RIGHT JOIN
-- ✓FULL OUTER JOIN
 - Subqueries
 - ✓UNION
 - ✓UNION ALL
