@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 53/90  
+Current Progress: Day 54/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -83,6 +83,7 @@ I am learning SQL to develop the ability to:
 | Day 51 | 7 Practice questions | IPOs database with multiple tables using JOINs and group by practice day. |
 | Day 52 | 2 Practice questions | 2 complex question practice I used(select, aggregate, CaseWhen, groupBy, having, orderBy, limit.|
 | Day 53 | 15 Practice questions | Easy to Hard based on JOIN, Having, Group by. |
+| Day 54 | 10 Practice questions | Today I practiced 10 questions based on ALL JOINs functions. |
 
 💻 SQL Server Development
 
