@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 56/90  
+Current Progress: Day 57/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -86,6 +86,7 @@ I am learning SQL to develop the ability to:
 | Day 54 | 10 Practice questions | Today I practiced 10 questions based on ALL JOINs functions. |
 | Day 55 | 10 Practice questions | Joins on a 4-table trading database: INNER, LEFT and RIGHT JOINs with GROUP BY, HAVING, ORDER BY and LIMIT. |
 | Day 56 | 10 Practice questions | Self-test on a 4-table insurance database: joining 3 to 4 tables, finding missing data with LEFT JOIN + IS NULL, and JOIN + GROUP BY + HAVING + LIMIT. |
+| Day 57 | 5 Practice questions | First day of subqueries: queries inside queries using AVG, MAX, IN and NOT IN. |
 
 💻 SQL Server Development
 
