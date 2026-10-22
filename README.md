@@ -122,6 +122,7 @@ I am learning SQL to develop the ability to:
 - ✓Subqueries
 - ✓UNION
 - ✓UNION ALL
+- CTE
 - Foreign Keys
 - CASCADE
 - Referential Integrity
@@ -145,7 +146,7 @@ The objective is not only to learn SQL syntax, but to understand how SQL can sup
 As I continue this 90-day journey, I will work toward:
 
 - ✓ More complex SQL queries
-- Advanced SQL concepts
+- ✓Advanced SQL concepts
 - Larger business datasets
 - ✓Financial analysis use cases
 - Budget vs Actual analysis
