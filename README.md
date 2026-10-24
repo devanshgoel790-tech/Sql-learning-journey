@@ -1,4 +1,4 @@
-# SQL Learning Journey — 90 Days
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/56993a47-1d8a-4009-9e6c-7bde0542febf" /><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3e57621d-69b6-4261-9c5c-7492541c1d5b" /># SQL Learning Journey — 90 Days
 
 > Building practical SQL skills for Financial Analysis & FP&A
 
@@ -6,7 +6,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 61/90  
+Current Progress: Day 63/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -91,6 +91,8 @@ I am learning SQL to develop the ability to:
 | Day 59 | 10 Practice Questions | Practised subqueries using `AVG(), IN, correlated subqueries, EXISTS, and NOT EXISTS on financial data. |
 | Day 60 | 8 Practice Questions | Practiced Sub Queries with different  tables. |
 | Day 61 | 5 Practice questions | Subqueries and JOINs together on a 3-table lending database: AVG, MAX, IN, NOT IN. |
+| Day 62 | 5 Practice Questions | Practiced Subqueries and JOINs together on a 3-table |
+| Day 63 | 15 Practice questions | Full SQL test on a banking database: filters, GROUP BY, HAVING, CASE WHEN, JOINs, subqueries, UNION. |
 
 💻 SQL Server Development
 
