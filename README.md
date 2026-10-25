@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/56993a47-1d8a-4009-9e6c-7bde0542febf" /><img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3e57621d-69b6-4261-9c5c-7492541c1d5b" /># SQL Learning Journey — 90 Days
+ /># SQL Learning Journey — 90 Days
 
 > Building practical SQL skills for Financial Analysis & FP&A
 
