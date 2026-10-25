@@ -1,12 +1,11 @@
 
-
 > Building practical SQL skills for Financial Analysis & FP&A
 
 I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 63/90  
+Current Progress: Day 64/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -93,6 +92,7 @@ I am learning SQL to develop the ability to:
 | Day 61 | 5 Practice questions | Subqueries and JOINs together on a 3-table lending database: AVG, MAX, IN, NOT IN. |
 | Day 62 | 5 Practice Questions | Practiced Subqueries and JOINs together on a 3-table |
 | Day 63 | 15 Practice questions | Full SQL test on a banking database: filters, GROUP BY, HAVING, CASE WHEN, JOINs, subqueries, UNION. |
+| Day 64 | 5 Practice questions | Today I did 5 practiced questions based on Case When topic. |
 
 💻 SQL Server Development
 
