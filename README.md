@@ -1,4 +1,4 @@
- /># SQL Learning Journey — 90 Days
+
 
 > Building practical SQL skills for Financial Analysis & FP&A
 
