@@ -124,7 +124,7 @@ I am learning SQL to develop the ability to:
 - ✓Subqueries
 - ✓UNION
 - ✓UNION ALL
-- CTE
+- ✓CTE
 - Foreign Keys
 - CASCADE
 - Referential Integrity
