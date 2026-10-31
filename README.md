@@ -5,7 +5,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 67/90  
+Current Progress: Day 70/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -96,6 +96,11 @@ I am learning SQL to develop the ability to:
 | Day 65 | 5 Practice questions | Today I learnt CTEs function. |
 | Day 66 | 8 Practice questions | CTEs on a sales table: totals per region, product and rep, filtered CTEs, CTE inside a subquery. |
 | Day 67 |  CTE + JOIN | 10 loan-database queries: totals per customer/city/segment, LEFT JOIN + IS NULL, subquery on CTE, ROUND |
+| Day 68 | CTE + JOIN + Subqueries | 5 questions practice with subqueries and INNER JOIN. |
+| Day 69 | 10 Practice questions | what I have learnt so far all the topics including NULL, ROUND. |
+| Day 70 | Window Function | Learnt PARTITION BY, OVER, ROW_NUMBER, RANK, DENSE_RANK. |
+
+
 
 💻 SQL Server Development
 
@@ -128,6 +133,7 @@ I am learning SQL to develop the ability to:
 - ✓UNION
 - ✓UNION ALL
 - ✓CTE
+- ✓Window Function
 - Foreign Keys
 - CASCADE
 - Referential Integrity
