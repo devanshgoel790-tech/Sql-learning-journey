@@ -92,14 +92,14 @@ I am learning SQL to develop the ability to:
 | Day 61 | 5 Practice questions | Subqueries and JOINs together on a 3-table lending database: AVG, MAX, IN, NOT IN. |
 | Day 62 | 5 Practice Questions | Practiced Subqueries and JOINs together on a 3-table |
 | Day 63 | 15 Practice questions | Full SQL test on a banking database: filters, GROUP BY, HAVING, CASE WHEN, JOINs, subqueries, UNION. |
-| Day 64 | 5 Practice questions | Today I did 5 practiced questions based on Case When topic. |
-| Day 65 | 5 Practice questions | Today I learnt CTEs function. |
+| Day 64 | 5 Practice questions | Practiced 5 questions based on Case When topic. |
+| Day 65 | 5 Practice questions | Today I learnt CTEs (WITH clause) . |
 | Day 66 | 8 Practice questions | CTEs on a sales table: totals per region, product and rep, filtered CTEs, CTE inside a subquery. |
 | Day 67 |  CTE + JOIN | 10 loan-database queries: totals per customer/city/segment, LEFT JOIN + IS NULL, subquery on CTE, ROUND |
-| Day 68 | CTE + JOIN + Subqueries | 5 questions practice with subqueries and INNER JOIN. |
-| Day 69 | 10 Practice questions | what I have learnt so far all the topics including NULL, ROUND. |
+| Day 68 | CTE + JOIN + Subqueries | 5 questions on CTEs subqueries and INNER JOIN. |
+| Day 69 | 10 Practice questions | 10 mixed questions on all topics so far, including NULL and ROUND. |
 | Day 70 | Window Function | Learnt PARTITION BY, OVER, ROW_NUMBER, RANK, DENSE_RANK. |
-| Day 71 | Window Function | Learnt AGGREGATE(sum, avg, min, max, count) , OVER, PARTITION BY, ORDER BY , RUNNING TOTALS. |
+| Day 71 | Window Function | Learnt AGGREGATE(sum, avg, min, max, count) with OVER, PARTITION BY, ORDER BY , RUNNING TOTALS. |
 
 
 
