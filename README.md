@@ -5,7 +5,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 71/90  
+Current Progress: Day 73/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -100,6 +100,8 @@ I am learning SQL to develop the ability to:
 | Day 69 | 10 Practice questions | 10 mixed questions on all topics so far, including NULL and ROUND. |
 | Day 70 | Window Function | Learnt PARTITION BY, OVER, ROW_NUMBER, RANK, DENSE_RANK. |
 | Day 71 | Window Function | Learnt AGGREGATE(sum, avg, min, max, count) with OVER, PARTITION BY, ORDER BY , RUNNING TOTALS. |
+| Day 72 | Window Function | Practised RANK and SUM with OVER; learned the difference between GROUP BY (collapses rows) and PARTITION BY (keeps rows). |
+| Day 73 | Window Function | Practised ROW_NUMBER, RANK and DENSE_RANK with PARTITION BY on a mutual fund database (8 questions). |
 
 
 
