@@ -1,11 +1,11 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/abe75cf3-e888-4ec2-8c24-962e523c7ee9" />
+
 > Building practical SQL skills for Financial Analysis & FP&A
 
 I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 75/90  
+Current Progress: Day 76/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
