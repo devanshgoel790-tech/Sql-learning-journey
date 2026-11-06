@@ -1,4 +1,4 @@
-
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/abe75cf3-e888-4ec2-8c24-962e523c7ee9" />
 > Building practical SQL skills for Financial Analysis & FP&A
 
 I am documenting my 90-day SQL learning journey through daily practice in MySQL.
@@ -103,7 +103,9 @@ I am learning SQL to develop the ability to:
 | Day 72 | Window Function | Practised RANK and SUM with OVER; learned the difference between GROUP BY (collapses rows) and PARTITION BY (keeps rows). |
 | Day 73 | Window Function | Practised ROW_NUMBER, RANK and DENSE_RANK with PARTITION BY on a mutual fund database (8 questions). |
 | Day 74 | 8 Practice Questions | Aggregate window functions, PARTITION BY vs ORDER BY.  |
-| Day 74 | 10 Practice Questions | Topic of (LAG, LEAD, FIRST_VALUE, LAST_VALUE)  |
+| Day 75 | 10 Practice Questions | Topic of (LAG, LEAD, FIRST_VALUE, LAST_VALUE)  |
+| Day 76 | 10 Practice Questions | Practised all 3 window families on one table (ranking, aggregate OVER, LAG, LEAD, FIRST_VALUE) |
+
 
 
 
