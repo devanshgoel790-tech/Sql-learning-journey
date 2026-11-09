@@ -5,7 +5,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 78/90  
+Current Progress: Day 79/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -107,6 +107,7 @@ I am learning SQL to develop the ability to:
 | Day 76 | 10 Practice Questions | Practised all 3 window families on one table (ranking, aggregate OVER, LAG, LEAD, FIRST_VALUE) |
 | Day 77 | 10 Practice Questions | Mixed practice on an insurance database: INNER JOIN, LEFT JOIN, RIGHT JOIN, subquery with AVG, GROUP BY, HAVING and CASE WHEN. |
 | Day 78 | 10 Practice Questions | Join practice on a retail sales database: INNER JOIN, LEFT JOIN, RIGHT JOIN, anti-join with IS NULL, multi-table joins, GROUP BY with HAVING, RANK over grouped totals and self join. |
+| Day 79 | 10 Practice Questions | Mixed practice: WHERE, BETWEEN, IS NULL, GROUP BY, HAVING, CASE WHEN, JOINs, subquery, ROUND and running total. |
 
 
 
