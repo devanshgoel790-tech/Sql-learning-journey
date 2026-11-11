@@ -108,6 +108,7 @@ I am learning SQL to develop the ability to:
 | Day 77 | 10 Practice Questions | Mixed practice on an insurance database: INNER JOIN, LEFT JOIN, RIGHT JOIN, subquery with AVG, GROUP BY, HAVING and CASE WHEN. |
 | Day 78 | 10 Practice Questions | Join practice on a retail sales database: INNER JOIN, LEFT JOIN, RIGHT JOIN, anti-join with IS NULL, multi-table joins, GROUP BY with HAVING, RANK over grouped totals and self join. |
 | Day 79 | 10 Practice Questions | Mixed practice: WHERE, BETWEEN, IS NULL, GROUP BY, HAVING, CASE WHEN, JOINs, subquery, ROUND and running total. || Day 80 | 10 Practice Questions | Date functions on an invoice database: YEAR, MONTH, DATEDIFF, DATE_FORMAT with GROUP BY, CASE WHEN, JOIN and LAG. |
+| Day 80 | 10 Practice Questions | Date functions on an invoice database: YEAR, MONTH, DATEDIFF, DATE_FORMAT with GROUP BY, CASE WHEN, JOIN and LAG. |
 
 
 
