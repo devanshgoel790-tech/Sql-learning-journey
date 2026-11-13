@@ -104,13 +104,13 @@ I am learning SQL to develop the ability to:
 | Day 73 | Window Function | Practised ROW_NUMBER, RANK and DENSE_RANK with PARTITION BY on a mutual fund database (8 questions). |
 | Day 74 | 8 Practice Questions | Aggregate window functions, PARTITION BY vs ORDER BY.  |
 | Day 75 | 10 Practice Questions | Topic of (LAG, LEAD, FIRST_VALUE, LAST_VALUE)  |
-| Day 76 | 10 Practice Questions | Practised all 3 window families on one table (ranking, aggregate OVER, LAG, LEAD, FIRST_VALUE) |
-| Day 77 | 10 Practice Questions | Mixed practice on an insurance database: INNER JOIN, LEFT JOIN, RIGHT JOIN, subquery with AVG, GROUP BY, HAVING and CASE WHEN. |
-| Day 78 | 10 Practice Questions | Join practice on a retail sales database: INNER JOIN, LEFT JOIN, RIGHT JOIN, anti-join with IS NULL, multi-table joins, GROUP BY with HAVING, RANK over grouped totals and self join. |
-| Day 79 | 10 Practice Questions | Mixed practice: WHERE, BETWEEN, IS NULL, GROUP BY, HAVING, CASE WHEN, JOINs, subquery, ROUND and running total. || Day 80 | 10 Practice Questions | Date functions on an invoice database: YEAR, MONTH, DATEDIFF, DATE_FORMAT with GROUP BY, CASE WHEN, JOIN and LAG. |
-| Day 80 | 10 Practice Questions | Date functions on an invoice database: YEAR, MONTH, DATEDIFF, DATE_FORMAT with GROUP BY, CASE WHEN, JOIN and LAG. |
-| Day 81 | 10 Practice Questions | String and NULL functions on a client database: CONCAT, UPPER, LOWER, TRIM, SUBSTRING, REPLACE, LENGTH, COALESCE, IFNULL and NULLIF. |
-| Day 82 | 10 Practice Questions | CAST and EXISTS / NOT EXISTS on a bank database: text to number conversion, customers with and without accounts and loans. |
+| Day 76 |Practised all 3 window families |  (ranking, aggregate OVER, LAG, LEAD, FIRST_VALUE) |
+| Day 77 |  Mixed practice on an insurance database |10 practice questions: INNER JOIN, LEFT JOIN, RIGHT JOIN, subquery with AVG, GROUP BY, HAVING and CASE WHEN. |
+| Day 78 | Join practice on a retail sales database |10 practice questions: INNER JOIN, LEFT JOIN, RIGHT JOIN, anti-join with IS NULL, multi-table joins, GROUP BY with HAVING, RANK over grouped totals and self join. |
+| Day 79 | Mixed practice |: WHERE, BETWEEN, IS NULL, GROUP BY, HAVING, CASE WHEN, JOINs, subquery, ROUND and running total. |
+| Day 80 | Date functions on an invoice database |10 practice questions: YEAR, MONTH, DATEDIFF, DATE_FORMAT with GROUP BY, CASE WHEN, JOIN and LAG. |
+| Day 81 |  String and NULL functions | 10 practice questions on a client database: CONCAT, UPPER, LOWER, TRIM, SUBSTRING, REPLACE, LENGTH, COALESCE, IFNULL and NULLIF. |
+| Day 82 | CAST and EXISTS / NOT EXISTS | 10 practice questions on a bank database: text to number conversion, customers with and without accounts and loans. |
 
 
 
