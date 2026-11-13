@@ -5,7 +5,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 81/90  
+Current Progress: Day 82/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -110,6 +110,7 @@ I am learning SQL to develop the ability to:
 | Day 79 | 10 Practice Questions | Mixed practice: WHERE, BETWEEN, IS NULL, GROUP BY, HAVING, CASE WHEN, JOINs, subquery, ROUND and running total. || Day 80 | 10 Practice Questions | Date functions on an invoice database: YEAR, MONTH, DATEDIFF, DATE_FORMAT with GROUP BY, CASE WHEN, JOIN and LAG. |
 | Day 80 | 10 Practice Questions | Date functions on an invoice database: YEAR, MONTH, DATEDIFF, DATE_FORMAT with GROUP BY, CASE WHEN, JOIN and LAG. |
 | Day 81 | 10 Practice Questions | String and NULL functions on a client database: CONCAT, UPPER, LOWER, TRIM, SUBSTRING, REPLACE, LENGTH, COALESCE, IFNULL and NULLIF. |
+| Day 82 | 10 Practice Questions | CAST and EXISTS / NOT EXISTS on a bank database: text to number conversion, customers with and without accounts and loans. |
 
 
 
