@@ -114,6 +114,7 @@ I am learning SQL to develop the ability to:
 | Day 83 | 10 Practice Questions | NTILE, PERCENT_RANK, moving average, INTERSECT and EXCEPT on a branch sales database, with CAST, EXISTS, JOIN and CASE WHEN revision. |
 | Day 84 | 10 Practice Questions | Views, temporary tables, recursive CTE, NTILE, EXISTS, moving average, self join |
 | Day 85 | Keys and Indexes Practice | Primary key, foreign key, ON DELETE CASCADE, RESTRICT, index |
+| Day 86 | 10 Practice Questions | Normalization, transactions (COMMIT, ROLLBACK), foreign key cascade, index, GROUP BY HAVING, LAG |
 
 
 
