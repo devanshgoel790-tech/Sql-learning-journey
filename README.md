@@ -5,7 +5,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 86/90  
+Current Progress: Day 87/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -115,6 +115,7 @@ I am learning SQL to develop the ability to:
 | Day 84 | 10 Practice Questions | Views, temporary tables, recursive CTE, NTILE, EXISTS, moving average, self join |
 | Day 85 | Keys and Indexes Practice | Primary key, foreign key, ON DELETE CASCADE, RESTRICT, index |
 | Day 86 | 10 Practice Questions | Normalization, transactions (COMMIT, ROLLBACK), foreign key cascade, index, GROUP BY HAVING, LAG |
+| Day 87 | 10 Practice Questions | Stored procedures, triggers, transactions, normalization, foreign key, joins, window running total |
 
 
 
