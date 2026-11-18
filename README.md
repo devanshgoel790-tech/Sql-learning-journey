@@ -152,8 +152,8 @@ I am learning SQL to develop the ability to:
 - ✓UNION ALL
 - ✓CTE
 - ✓Window Function
-- Foreign Keys
-- CASCADE
+- ✓Foreign Keys
+- ✓CASCADE
 - Referential Integrity
 
 ## 📊 FP&A Learning Roadmap
