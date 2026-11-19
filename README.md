@@ -116,7 +116,8 @@ I am learning SQL to develop the ability to:
 | Day 85 | Keys and Indexes Practice | Primary key, foreign key, ON DELETE CASCADE, RESTRICT, index |
 | Day 86 | 10 Practice Questions | Normalization, transactions (COMMIT, ROLLBACK), foreign key cascade, index, GROUP BY HAVING, LAG |
 | Day 87 | 10 Practice Questions | Stored procedures, triggers, transactions, normalization, foreign key, joins, window running total |
-| Day 87 | 10 Practice Questions | Stored procedures, triggers, transactions, normalization, foreign key, joins, window running total |
+|Day 88 | 10 Practice Questions | Practiced SELECT, FROM, WHERE, HAVING, ALL JOINS, UNION & UNION ALL, SUBQUERIES, AGGREFATES FUNCTION. |
+|Day 89 | 15 Practice Questions | Practiced CTE'S, WINDOW FUNCTION CASE WHEN, DATE FUNCTIONS, SUBQUERIES. |
 
 
 
