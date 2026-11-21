@@ -5,7 +5,7 @@ I am documenting my 90-day SQL learning journey through daily practice in MySQL.
 
 My goal is to build a strong foundation in SQL and gradually apply it to practical business and financial analysis use cases.
 
-Current Progress: Day 89/90  
+Current Progress: Day 90/90  
 Database: MySQL  
 Tool: MySQL Workbench  
 Career Focus: Financial Analyst | FP&A
@@ -118,6 +118,7 @@ I am learning SQL to develop the ability to:
 | Day 87 | 10 Practice Questions | Stored procedures, triggers, transactions, normalization, foreign key, joins, window running total |
 |Day 88 | 10 Practice Questions | Practiced SELECT, FROM, WHERE, HAVING, ALL JOINS, UNION & UNION ALL, SUBQUERIES, AGGREFATES FUNCTION. |
 |Day 89 | 15 Practice Questions | Practiced CTE'S, WINDOW FUNCTION CASE WHEN, DATE FUNCTIONS, SUBQUERIES. |
+| Day 90 | 13-Question Final Test | Joins, CTE, Window, Dates, ROLLUP, Pivot |
 
 
 
@@ -156,7 +157,7 @@ I am learning SQL to develop the ability to:
 - ✓Window Function
 - ✓Foreign Keys
 - ✓CASCADE
-- Referential Integrity
+- ✓Referential Integrity
 
 ## 📊 FP&A Learning Roadmap
 
